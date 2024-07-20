@@ -16,7 +16,7 @@ function shoppingList(input) {
             if (groceries.includes(oldItem)) {
                 let index = groceries.indexOf(oldItem);
                 groceries[index] = newItem;
-            }
+            };
         } else if (command === "Rearrange") {
             if (groceries.includes(oldItem)) {
                 let index = groceries.indexOf(oldItem);
