@@ -22,7 +22,7 @@ function shoppingList(input) {
                 let index = groceries.indexOf(oldItem);
                 groceries.splice(index, 1);
                 groceries.push(oldItem);
-            }
+            };
         }
 
         list = input.shift();
