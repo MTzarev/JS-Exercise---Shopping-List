@@ -6,7 +6,7 @@ function shoppingList(input) {
         if (command === "Urgent") {
             if (!groceries.includes(oldItem)) {
                 groceries.unshift(oldItem);
-            }
+            };
         } else if (command === "Unnecessary") {
             if (groceries.includes(oldItem)) {
                 let index = groceries.indexOf(oldItem);
