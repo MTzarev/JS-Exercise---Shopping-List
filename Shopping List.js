@@ -26,7 +26,7 @@ function shoppingList(input) {
         };
 
         list = input.shift();
-    }
+    };
 
     console.log(groceries.join(`, `));
 }
