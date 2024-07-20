@@ -11,7 +11,7 @@ function shoppingList(input) {
             if (groceries.includes(oldItem)) {
                 let index = groceries.indexOf(oldItem);
                 groceries.splice(index, 1);
-            }
+            };
         } else if (command === "Correct") {
             if (groceries.includes(oldItem)) {
                 let index = groceries.indexOf(oldItem);
