@@ -3,7 +3,6 @@ function shoppingList(input) {
     let list = input.shift();
     while (list !== "Go Shopping!") {
         let [command, oldItem, newItem] = list.split(` `);
-
         if (command === "Urgent") {
             if (!groceries.includes(oldItem)) {
                 groceries.unshift(oldItem);
