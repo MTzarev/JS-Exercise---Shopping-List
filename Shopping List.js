@@ -1,6 +1,5 @@
 function shoppingList(input) {
     let groceries = input.shift().split(`!`);
-
     let list = input.shift();
 
     while (list !== "Go Shopping!") {
